@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f6;
+    color: #000;
+  }
+  body {
+    background-image: url('JAVAA.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff7c2;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  .container {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff7c2;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  button:hover {
+    background-color: #fff7c2;
+    color: #000;
+  }
+  
+  iframe {
+    width: 90%;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #fff7c2;
+    margin-top: 50px;
+  }
+  
